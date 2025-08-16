@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+pydantic
+yfinance
+pandas
+numpy
+scikit-learn
+tensorflow>=2.9.0   # or torch if using PyTorch
+transformers
+python-multipart    # for file uploads (if you add upload endpoints later)
+requests

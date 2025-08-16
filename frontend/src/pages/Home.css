@@ -1,0 +1,18 @@
+/* App.css or your new CSS file */
+
+.content-container {
+    display: flex;
+    /* Use flexbox for layout */
+    flex-direction: column;
+    /* Stack items vertically */
+    gap: 40px;
+    /* Add space between components */
+    padding: 20px;
+}
+
+/* To improve chart visibility, ensure the chart container has a height */
+.chart-container {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+}
